@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 10</title>
+    <style>
+        body {
+            background-color: rgb(240, 220, 176);
+
+        }
+       
+    
+        article {
+            color: white;
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            height: 150px;
+            background-image: linear-gradient(to bottom, rgb(45, 157, 45), rgb(16, 75, 16));
+        }
+        article > h1 {
+            padding: 0px;
+        }
+
+        article > p {
+            padding: 20px;
+        }
+
+        section {
+            text-align: left;
+            display: flex;
+            font-family: Georgia, 'Times New Roman', Times, serif ;    
+        }
+
+        main {
+            background-color: white;
+            margin-left: 100px;
+            margin-right: 100px;
+            box-shadow: 0px 1px 5px 1px black;
+            text-align: left;
+            border-radius: 10px 10px 10px 10px;
+            margin: 10px;
+        }
+
+        h2 {
+            color: rgb(3, 70, 3);
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;    
+            background-image: linear-gradient(to right, rgb(38, 192, 38), rgb(255, 255, 255));
+            margin: 7.5px;
+        }
+
+        div > p {
+            margin: 10px;
+        }
+        #home {
+            margin: 5px;
+
+        }
+
+        #noticias {
+            margin: 5px;
+        }
+        
+        #curiosidades {
+            margin: 5px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        
+        a:hover {
+            background-color: rgb(13, 135, 44);
+            color: antiquewhite;
+            border-radius: 6px;
+        }
+
+        #video {
+            background-color: green;
+            text-align: center;
+        }
+
+        #bugdroid {
+            text-align: center;
+        }
+
+        h3 {
+            background-color: green;
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        #lista {
+            background-color: lightgreen;
+            border-radius: 10px;
+            padding: 10px;
+            margin: 10px;
+            margin-bottom: 20px;
+        }
+
+        #ultimop {
+            margin: 15px;
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+    
+    </style>
+</head>
+<body>
+<main>
+    <article>
+        <h1>CURIOSIDADES DE TECNOLOGIA</h1>
+        <p>Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar</p>
+        <section>
+          <a href="#" id="home">HOME</a>
+          <a href="#" id="noticias">NOTICIAS</a>
+          <a href="#" id="curiosidades">CURIOSIDADES</a>  
+        </section>
+    </article>
+    <div>
+        <h1>Historia do mascote do jogo</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia eaque enim, minima tenetur velit laborum odio et, sed possimus ex molestiae iure error totam aliquid numquam? Quas, possimus repellendus? Facilis.</p>
+        <h2>A primeira versão</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit, corporis harum doloribus quos vitae impedit neque, rem nihil, dolore fuga dignissimos obcaecati animi asperiores. Sed perferendis consectetur ullam aspernatur pariatur!</p>
+      <img src="imagens/ dan-droids.png" alt="dan-droids" style="width: 700px;">  
+        <p>Essa primeira versão bizarra foi natizada em homenagem ao seu criador</p>
+    </div>
+    <div>
+        <h2>SURGE UM NOVO MASCOTE</h2>
+        <p>A ideia de ter um mascote foi amadurecendo e a missão foi passada para uma profissional da área. A ilustradora Russa Irina Blok, também funcionária do Google, ficou com a missão de representar o pequeno robô de uma maneira mais agradável.</p>
+        <img src="imagens/irina-blok.jpg" alt="mulher">
+        <p>A ideia principal da Irina era representar tudo graficamente com poucos traços e de forma mais chapada. O desenho também deveria gerar identificação rápida com quem o olha. Surgiu então o Bugdroid, o novo mascote do Android.
+        </p>
+        <img src="imagens/bugdroid.png" alt="bugdroid" id="bugdroid">
+    </div>
+    <div id="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/YRcmot2S0Y0?si=demUrl_YLfwYNt_R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div id="lista">
+        <h3>Quer aprender mais?</h3>
+        <p>Outro assunto curioso em relação ao Android é que cada versão sempre foi nomeada em homenagem a um doce, em ordem alfabética a partir da versão 1.5 até a 9.0.
+        </p>
+        <ul>
+            <li>Cupcake</li>
+            <li>Donut</li>
+            <li>Neymar</li>
+            <li>Messi</li>
+            <li>Otavio</li>
+            <li>Bolo Choco</li>
+        </ul>
+        <p>Infelizmente, o Android Q não existiu, pois o Google resolveu pôr fim a essa divertida prática e começou a usar numerações, o que deu origem ao Android 10.</p>
+        <br>
+        <p>Acesse aqui o site Android History para conhecer a sequência das versões "adocicadas" e o que cada uma trouxe para o sistema Android.</p>
+    </div>
+    <p id="ultimop">Então é isso! Espero que você tenha gostado do nosso artigo com essa curiosidade sobre o sistema Android e seu simpático mascote.</p>
+
+</main>
+</body>
+</html>
